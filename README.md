@@ -1,6 +1,6 @@
 # boneyard
 
-## Retired code, made available by request
+Retired code, made available by request
 
 ### I want some of your old work!
 

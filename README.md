@@ -2,7 +2,7 @@
 
 Retired code, made available by request
 
-### I want some of your old work!
+### I want some of your old work.
 
 Great! Send me a task for it using [`cando`][link-cando].
 

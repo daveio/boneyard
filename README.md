@@ -2,7 +2,7 @@
 
 Retired code, made available by request
 
-### I want some of your old work.
+### I want some of your old work
 
 Great! [Open a content request Issue][link-content-request-issue].
 

@@ -2,7 +2,7 @@
 name: Content request
 about: Request some or all of the code from a retired repository
 title: "[Content request] <short description>"
-labels: question
+labels: content-request
 assignees: daveio
 
 ---
@@ -18,8 +18,8 @@ If you have a broken link, fill in the URL. Failing that, if you know the name o
 **What you want from the repository**
 Think about what you really need. If it's just one file, tell me which file. Entire repositories will only be restored if there's sufficient justification, and this is the place to tell me about that justification.
 
-**Where you found the link to, or details of, the unavailable content**
+**Where you were referred from**
 Telling me where you found the link, or were otherwise referred to the content, will let me try to get it pointed at its new location in the boneyard.
 
 **Any other details**
-If therea
+If there are any other details that would be helpful, this is the place for them.

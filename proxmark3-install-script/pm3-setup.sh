@@ -20,8 +20,8 @@ fi
 echo "Installing requirements with sudo"
 
 sudo apt-get -y install build-essential ubuntu-restricted-extras ubuntu-restricted-addons \
-						p7zip git libreadline5 libreadline-dev libusb-0.1-4 libusb-dev \
-						libqt4-dev perl pkg-config wget xz-utils
+	p7zip git libreadline5 libreadline-dev libusb-0.1-4 libusb-dev \
+	libqt4-dev perl pkg-config wget xz-utils
 
 if [ -d /opt/devkitpro/devkitARM ]; then
 	echo "Existing ARM development kit installation detected, skipping installation"
@@ -41,7 +41,7 @@ else
 	sudo tar xf $DLFN
 	rm -f $DLFN
 	export PATH=${PATH}:/opt/devkitpro/devkitARM/bin/
-	echo 'PATH=${PATH}:/opt/devkitpro/devkitARM/bin/ ' >> ~/.bashrc
+	echo 'PATH=${PATH}:/opt/devkitpro/devkitARM/bin/ ' >>~/.bashrc
 fi
 
 echo "Creating ~/src if it doesn't exist"
@@ -66,7 +66,7 @@ echo "Excluding Proxmark from modem-manager"
 
 TMPUDEV=$(mktemp)
 
-echo 'ATTRS{idVendor}=="2d2d" ATTRS{idProduct}=="504d", ENV{ID_MM_DEVICE_IGNORE}="1"' > $TMPUDEV
+echo 'ATTRS{idVendor}=="2d2d" ATTRS{idProduct}=="504d", ENV{ID_MM_DEVICE_IGNORE}="1"' >$TMPUDEV
 sudo mv $TMPUDEV /etc/udev/rules.d/77-mm-proxmark-blacklist.rules
 sudo udevadm control --reload-rules
 
@@ -77,6 +77,6 @@ echo "Check dmesg after connecting a Proxmark for the device path, probably /dev
 echo "To run the client for a Proxmark connected on /dev/ttyACM0:"
 echo "    cd $HOME/src/proxmark3-iceman/client"
 echo "    ./proxmark3 /dev/ttyACM0"
-echo 
+echo
 
 exit 0

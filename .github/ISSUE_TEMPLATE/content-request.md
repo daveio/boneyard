@@ -4,10 +4,10 @@ about: Request some or all of the code from a retired repository
 title: "[Content request] <short description>"
 labels: content-request
 assignees: daveio
-
 ---
 
 **Sanity checks**
+
 - **I have personally confirmed that the content I want is no longer available** <Yes/No>
 - **I have personally checked the repository hasn't just been renamed** <Yes/No>
 - **I understand that any defrosted content is unsupported and provided as-is** <Yes/No>
@@ -23,4 +23,3 @@ Telling me where you found the link, or were otherwise referred to the content, 
 
 **Any other information**
 If there's any other information that would be helpful, this is the place for it.
-
